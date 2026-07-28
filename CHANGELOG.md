@@ -18,7 +18,7 @@ All notable public changes are recorded here. Versions follow Semantic Versionin
 ### Validation
 
 - Structure, relative references, six safety-oriented forward scenarios, archive extraction, checksum, and sensitive-information QA are required release gates.
-- Public-URL Codex installation and behavior results are recorded after the prerelease exists.
+- Tag-pinned public installation, skill discovery, reference loading, and all six repeated Codex behavior scenarios passed after the prerelease was published.
 - Claude Code, Gemini CLI, Cursor, and OpenCode compatibility remains static-only until separately executed.
 
 ## [0.1.0-rc.1] - 2026-07-27
