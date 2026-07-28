@@ -4,7 +4,8 @@
 
 | Version | Support |
 | --- | --- |
-| `0.1.0-rc.2` | Best-effort prerelease support |
+| `1.0.0` | Supported stable release |
+| `0.1.0-rc.2` | Superseded prerelease; retained for audit |
 | Earlier candidates | Not supported for public installation |
 
 ## Report a vulnerability
@@ -30,4 +31,4 @@ Security and safety reports include:
 - release assets whose contents do not match the published SHA-256;
 - false claims of being an official TqSdk skill or of providing verified TqSdk API facts.
 
-The prerelease is instruction-first and should not require MCP servers, hosted services, scripts, account credentials, or background data collection.
+The stable release is instruction-first and should not require MCP servers, hosted services, scripts, account credentials, or background data collection.

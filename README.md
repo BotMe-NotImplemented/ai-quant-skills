@@ -8,23 +8,23 @@ This repository is a collection. Each installable skill lives under `skills/<ski
 
 | Skill | Purpose | Current version | Status |
 | --- | --- | --- | --- |
-| [`ai-quant-strategy-workflow`](skills/ai-quant-strategy-workflow/) | Turn a vague strategy idea into an approved task brief, then advance one evidence-gated stage at a time and stop before live trading. | `0.1.0-rc.2` | Public prerelease |
+| [`ai-quant-strategy-workflow`](skills/ai-quant-strategy-workflow/) | Turn a vague strategy idea into an approved task brief, then advance one evidence-gated stage at a time and stop before live trading. | `1.0.0` | Stable |
 
 ## Install in Codex
 
 Ask Codex to use `$skill-installer` with this immutable source:
 
 ```text
-https://github.com/BotMe-NotImplemented/ai-quant-skills/tree/v0.1.0-rc.2/skills/ai-quant-strategy-workflow
+https://github.com/BotMe-NotImplemented/ai-quant-skills/tree/v1.0.0/skills/ai-quant-strategy-workflow
 ```
 
 After installation, start a new turn and invoke `$ai-quant-strategy-workflow`. If it is not discovered, restart Codex.
 
 For a manual project-scoped install, download the canonical release ZIP, verify its SHA-256 file, and extract the `ai-quant-strategy-workflow` folder under `<repo>/.agents/skills/`.
 
-- [Prerelease page](https://github.com/BotMe-NotImplemented/ai-quant-skills/releases/tag/v0.1.0-rc.2)
-- [Canonical ZIP](https://github.com/BotMe-NotImplemented/ai-quant-skills/releases/download/v0.1.0-rc.2/ai-quant-strategy-workflow-0.1.0-rc.2.zip)
-- [SHA-256 file](https://github.com/BotMe-NotImplemented/ai-quant-skills/releases/download/v0.1.0-rc.2/ai-quant-strategy-workflow-0.1.0-rc.2.zip.sha256)
+- [Stable release page](https://github.com/BotMe-NotImplemented/ai-quant-skills/releases/tag/v1.0.0)
+- [Canonical ZIP](https://github.com/BotMe-NotImplemented/ai-quant-skills/releases/download/v1.0.0/ai-quant-strategy-workflow-1.0.0.zip)
+- [SHA-256 file](https://github.com/BotMe-NotImplemented/ai-quant-skills/releases/download/v1.0.0/ai-quant-strategy-workflow-1.0.0.zip.sha256)
 
 Do not use GitHub's automatically generated source archives as a substitute for the canonical skill ZIP.
 

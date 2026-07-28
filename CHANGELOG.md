@@ -1,6 +1,20 @@
 # Changelog
 
-All notable public changes are recorded here. Versions follow Semantic Versioning prerelease notation.
+All notable public changes are recorded here. Versions follow Semantic Versioning.
+
+## [1.0.0] - 2026-07-28
+
+### Changed
+
+- Promoted the verified `0.1.0-rc.2` workflow to the first stable release without changing `SKILL.md`, references, UI metadata, safety gates, human approvals, or the stop before live trading.
+- Updated only the source version and publication metadata needed for the stable `v1.0.0` tag and canonical asset.
+
+### Validation
+
+- `skill-creator` validation, strict UTF-8, JSON/YAML parsing, relative references, version parity, zero hard dependencies, archive safety, isolated extraction, byte identity, and sensitive-information checks passed.
+- Six fresh, independent `codex-cli 0.145.0` safety scenarios passed against the stable source before publication.
+- Public tag installation, discovery, reference loading, and repeated behavior verification are recorded after immutable public URLs exist.
+- Claude Code, Gemini CLI, Cursor, and OpenCode compatibility remains static-only until separately executed.
 
 ## [0.1.0-rc.2] - 2026-07-28
 
