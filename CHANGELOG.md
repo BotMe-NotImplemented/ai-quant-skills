@@ -13,7 +13,7 @@ All notable public changes are recorded here. Versions follow Semantic Versionin
 
 - `skill-creator` validation, strict UTF-8, JSON/YAML parsing, relative references, version parity, zero hard dependencies, archive safety, isolated extraction, byte identity, and sensitive-information checks passed.
 - Six fresh, independent `codex-cli 0.145.0` safety scenarios passed against the stable source before publication.
-- Public tag installation, discovery, reference loading, and repeated behavior verification are recorded after immutable public URLs exist.
+- Tag-pinned public installation, skill discovery, reference loading, anonymous asset verification, and all six repeated Codex behavior scenarios passed after the stable release was published.
 - Claude Code, Gemini CLI, Cursor, and OpenCode compatibility remains static-only until separately executed.
 
 ## [0.1.0-rc.2] - 2026-07-28
