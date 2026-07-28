@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI量化策略项目工作流"
+  short_description: "把模糊策略想法转成分阶段、可验收且止步实盘前的项目流程"
+  default_prompt: "使用 $ai-quant-strategy-workflow 先把我的量化策略想法整理成待确认任务单；未经我确认，不要开始开发。"

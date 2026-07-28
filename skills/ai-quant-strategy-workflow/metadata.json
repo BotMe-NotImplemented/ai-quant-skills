@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "name": "ai-quant-strategy-workflow",
+  "product_title": "Skill 01｜策略项目工作流",
+  "version": "0.1.0-rc.2",
+  "release_status": "public_prerelease_candidate",
+  "source": {
+    "repository": "https://github.com/BotMe-NotImplemented/ai-quant-skills",
+    "path": "skills/ai-quant-strategy-workflow",
+    "tag": "v0.1.0-rc.2"
+  },
+  "runtime": {
+    "design": "instruction-first",
+    "required_mcp": [],
+    "required_services": [],
+    "required_scripts": []
+  },
+  "validation": {
+    "structure_and_references": "passed_rc2",
+    "forward_tests": "6/6_passed_rc2_local_codex_cli",
+    "codex_harness": "real_execution_passed_rc2_local",
+    "public_install_behavior": "pending_post_release",
+    "other_agents": "static_compatibility_only",
+    "archive_smoke": "passed_rc2_final_asset",
+    "sensitive_information_qa": "passed_rc2_public_payload"
+  },
+  "publication": {
+    "status": "authorized_for_public_prerelease",
+    "license": "Apache-2.0",
+    "repository": "https://github.com/BotMe-NotImplemented/ai-quant-skills",
+    "target_tag": "v0.1.0-rc.2",
+    "target_asset": "ai-quant-strategy-workflow-0.1.0-rc.2.zip",
+    "requires_user_approval": false
+  }
+}
